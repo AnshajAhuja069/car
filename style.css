@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+}
+
+.logo {
+    height: 50px;
+    position: relative;
+    right: 160%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.home {
+    background-image: url("muscle-car-wallpaper-black.jpg");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+li {
+    float: left;
+    position: relative;
+    right: 100%;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    font-size: large;
+    font-family: fantasy;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: gray;
+    transition: ease-in;
+}
+
+li {
+    display: inline;
+    position: relative;
+    left: 25%;
+}
+
+#home {
+    position: relative;
+    right: 200px;
+}
+
+#veh {
+    position: relative;
+    right: 180px;
+}
+
+#end {
+    position: relative;
+    right: 120px;
+}
+
+#buy {
+    position: relative;
+    right: 160px;
+}
+
+#more {
+    position: relative;
+    right: 140px;
+}
+
+.gallery {
+    margin: 5px;
+    float: left;
+    width: 17%;
+    text-align: center;
+}
+
+div.gallery:hover {
+    position: relative;
+    right: 1%;
+    transition: ease-in;
+    transition-delay: 0.80;
+}
+
+div.gallery img {
+    height: auto;
+    width: 130%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+#CHALLENG {
+    padding-right: 10%;
+    position: relative;
+    left: 70%;
+}
+
+.desc {
+    padding-right: 10%;
+    position: relative;
+    left: 70%;
+}
+
+#intro {
+    font-family: fantasy;
+    font-size: 200%;
+    text-align: center;
+}
+
+.buyy {
+    background-image: url("2020-dodge-bhp-buy-online-ore.jpg.image.144.jpg");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.information {
+    margin: 5px;
+    float: left;
+    width: 17%;
+    text-align: center;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    left: 130%;
+    color: blanchedalmond;
+}
+
+#mustang {
+    padding-left: 10%;
+    position: relative;
+    left: 110%;
+}
+
+#mus {
+    position: relative;
+    left: 100%;
+}
+
+#car1 {
+    position: relative;
+    left: 120%;
+}
+
+#mu {
+    position: relative;
+    left: 140%;
+}
+
+.low {
+    background-color: black;
+    padding-top: 30%;
+}
+
+form {
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 0 2px 5px #f5f5f5;
+    background: #1b262c;
+    text-align: center;
+    position: relative;
+    left: 20%;
+}
+
+.fas {
+    margin: 25px 10px 0;
+    font-size: 72px;
+    color: #fff;
+}
+
+.fa-envelope {
+    transform: rotate(-20deg);
+}
+
+.fa-at,
+.fa-mail-bulk {
+    transform: rotate(10deg);
+}
+
+input,
+textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #1c87c9;
+    outline: none;
+}
+
+input::placeholder {
+    color: #666;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #1c87c9;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+button:hover {
+    background: #2371a0;
+}
+
+@media (min-width: 568px) {
+    .main-block {
+        flex-direction: row;
+    }
+    .left-part,
+    form {
+        width: 50%;
+    }
+    .fa-envelope {
+        margin-top: 0;
+        margin-left: 20%;
+    }
+    .fa-at {
+        margin-top: -10%;
+        margin-left: 65%;
+    }
+    .fa-mail-bulk {
+        margin-top: 2%;
+        margin-left: 28%;
+    }
+}
+
+h1 {
+    text-align: center;
+}
